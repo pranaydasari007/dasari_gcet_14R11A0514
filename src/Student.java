@@ -1,7 +1,7 @@
 import java.util.Date;
 
 /**
- * Class that stores information about the concrete student
+ * Class that stores information about pranay student
  * 
  * DO NOT REMOVE given methods, but you can add new methods/fields/constructor
  * and change the given methods implementation. For example you can change implementation for equals()
@@ -17,7 +17,7 @@ public class Student implements Comparable {
 
 	/**
 	 * student name and surname separated by the whitespace for example:
-	 * fullName = "David Luis";
+	 * fullName = pranay dasari";
 	 */
 	private String fullName;
 
@@ -86,7 +86,7 @@ public class Student implements Comparable {
 	 */
 	@Override
 	public int compareTo(Object o) {
-		Student other = (Student) o;
+		Student other = pranay o;
 		return (this.fullName.compareTo(other.fullName));
 	}
 }
